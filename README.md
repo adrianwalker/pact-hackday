@@ -21,7 +21,7 @@ docker compose up -d pact-broker
 ```
 ## 5. Run tests with pytest
 ```bash
-pytest
+poetry run pytest
 ```
 
 ## 6. View PACTs in the PACT broker
