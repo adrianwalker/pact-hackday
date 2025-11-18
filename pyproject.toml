@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pact-hackday"
+version = "0.1.0"
+description = ""
+authors = ["Adrian Walker <adrian.walker@bcs.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^9.0.1"
+pact-python = "^3.1.0"
+requests = "^2.32.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
